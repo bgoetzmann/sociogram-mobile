@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns       = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "org.coenraets.sociogrammobile"
+        id          = "com.odelia.sociogrammobile"
         versionCode = "10"
         version     = "1.0.0">
  
@@ -11,8 +11,8 @@
         A Starter-Kit Application for PhoneGap and Facebook Integration.
     </description>
  
-    <author href="http://odelia" email="ccoenraets@gmail.com">
-        Christophe Coenraets
+    <author href="http://odelia" email="bertrand.goetzmann@gmail.com">
+        Bertrand Goetzmann
     </author>
  
     <!-- <feature name="http://api.phonegap.com/1.0/camera"/>
@@ -23,6 +23,9 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/> -->
 
-    <gap:plugin name="com.phonegap.plugins.facebookconnect" /> 
+    <plugin name="com.phonegap.plugins.facebookconnect" value="FacebookConnectPlugin">
+        <param name="APP_ID" value="480506615360650" />
+        <param name="APP_NAME" value="Sociogram Mobile" />
+    </plugin> 
  
 </widget>
