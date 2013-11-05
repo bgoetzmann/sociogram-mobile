@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "org.coenraets.sociogrammobile"
+        versionCode = "10"
+        version     = "1.0.0">
+ 
+    <name>Sociogram Mobile</name>
+ 
+    <description>
+        A Starter-Kit Application for PhoneGap and Facebook Integration.
+    </description>
+ 
+    <author href="http://odelia" email="ccoenraets@gmail.com">
+        Christophe Coenraets
+    </author>
+ 
+    <!-- <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/> -->
+
+    <gap:plugin name="com.phonegap.plugins.facebookconnect" /> 
+ 
+</widget>
