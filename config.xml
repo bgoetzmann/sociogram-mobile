@@ -23,8 +23,9 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/> -->
 
-    <plugin name="FacebookConnect">
+    <gap:plugin name="com.phonegap.plugins.facebookconnect">
         <param name="APP_ID" value="692130284132039" />
-    </plugin> 
+        <param name="APP_NAME" value="Sociogram Mobile" />
+    </gap:plugin> 
  
 </widget>
